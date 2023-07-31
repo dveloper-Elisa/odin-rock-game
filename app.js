@@ -36,6 +36,7 @@ const resulted = (computerChoice) => {
 
   let li = document.createElement("li");
   let m = document.createElement("i");
+  m.style.color = "white";
   let b = document.createElement("br");
   m.innerHTML = result;
   li.append(m);
